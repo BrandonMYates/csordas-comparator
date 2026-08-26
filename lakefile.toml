@@ -1,0 +1,20 @@
+name = "CsordasComparator"
+defaultTargets = ["Challenge", "Solution"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.32.0"
+
+# The proof development. Filled in when the library repo is published; Palomar
+# requires a credential-free public URL and a full 40-char lowercase SHA.
+[[require]]
+name = "XiLab"
+git = "https://github.com/BrandonMYates/xilab.git"
+rev = "05863e86f30c4aee4a5cc688b4e37f7167d0c49c"
+
+[[lean_lib]]
+name = "Challenge"
+
+[[lean_lib]]
+name = "Solution"
