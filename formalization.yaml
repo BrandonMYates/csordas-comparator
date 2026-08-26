@@ -24,9 +24,10 @@ project:
     a proof-assistant formalization. The contribution recorded here is the Lean
     4 formalization and its auditable dependency chain. As an aside: the supporting
     library pinned by this entry also contains machine-checked refutations, on the
-    same axiom set, of published conjectures asserting that the zeros of the odd
-    channel of this same kernel are confined to a line; those theorems are not compared
-    by this configuration and are mentioned only as context for the library.'
+    same axiom set, of conjectures of X.-J. Yang (Fractals 32 (2024) 2340116) asserting
+    that the zeros of the tempered xi function -- the odd channel of this same kernel
+    -- are confined to a single line; those theorems are not compared by this configuration
+    and are mentioned only as context for the library.'
   authors:
   - Brandon Yates
   license: Apache-2.0
@@ -93,6 +94,17 @@ sources:
   note: Publicly deposited 15 August 2026. Gives an exact rational-certificate proof
     of the same sign failure. This submission makes no claim of priority for the
     counterexample.
+  author_endorsement: not-contacted
+- title: On a tempered xi function associated with the Riemann xi function
+  authors:
+  - Xiao-Jun Yang
+  id: https://doi.org/10.1142/S0218348X23401163
+  type: paper
+  location: Fractals 32 (2024) 2340116
+  relationship: background
+  note: 'Context only: source of the conjectures refuted by the supporting library
+    theorems mentioned in the abstract aside. No declaration compared by this configuration
+    concerns that paper.'
   author_endorsement: not-contacted
 related_formalizations:
 - id: https://github.com/leanprover-community/mathlib4
