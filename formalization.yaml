@@ -33,6 +33,10 @@ project:
   license: Apache-2.0
   responsible_maintainers:
   - Brandon Yates
+repository:
+  substantive_formalization:
+    id: BrandonMYates/xilab
+    revision: 4d24c74c3834b3f47a84110d8b864e3e50eacd7f
 classification:
   arxiv:
   - math.CA
@@ -44,6 +48,15 @@ classification:
   - 30D10
   - 11M06
 sources:
+- title: Two concavity problems for the Riemann kernel
+  authors:
+  - Brandon Yates
+  type: paper
+  relationship: formalizes
+  note: Unpublished manuscript, privately dated 3-4 August 2026; not publicly available.
+    The compared theorem formalizes its Corollary 4.1. Identified here so the chronology
+    recorded in the review notes can be assessed; being unpublished, it establishes
+    nothing about novelty, priority, or reception.
 - title: On the log-concavity of a Jacobi theta function
   authors:
   - Mark W. Coffey
