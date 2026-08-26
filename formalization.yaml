@@ -22,7 +22,11 @@ project:
     and no priority claim for the counterexample. Contemporaneous LLM-assisted exact-certificate
     proofs of the same sign failure are cited in the source metadata; neither is
     a proof-assistant formalization. The contribution recorded here is the Lean
-    4 formalization and its auditable dependency chain.'
+    4 formalization and its auditable dependency chain. As an aside: the supporting
+    library pinned by this entry also contains machine-checked refutations, on the
+    same axiom set, of published conjectures asserting that the zeros of the odd
+    channel of this same kernel are confined to a line; those theorems are not compared
+    by this configuration and are mentioned only as context for the library.'
   authors:
   - Brandon Yates
   license: Apache-2.0

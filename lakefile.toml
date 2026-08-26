@@ -11,7 +11,7 @@ rev = "v4.32.0"
 [[require]]
 name = "XiLab"
 git = "https://github.com/BrandonMYates/xilab.git"
-rev = "05863e86f30c4aee4a5cc688b4e37f7167d0c49c"
+rev = "4d24c74c3834b3f47a84110d8b864e3e50eacd7f"
 
 [[lean_lib]]
 name = "Challenge"
